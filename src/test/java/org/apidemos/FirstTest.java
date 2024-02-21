@@ -37,7 +37,6 @@ public class FirstTest {
         String actualCounter = wait.until(ExpectedConditions.visibilityOfElementLocated(
                 AppiumBy.xpath("//android.widget.TextSwitcher/android.widget.TextView"))).getText();
 
-
         Assert.assertEquals(actualCounter, "1");
     }
 }
