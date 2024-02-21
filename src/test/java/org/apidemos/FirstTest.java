@@ -39,6 +39,5 @@ public class FirstTest {
 
 
         Assert.assertEquals(actualCounter, "1");
-
     }
 }
