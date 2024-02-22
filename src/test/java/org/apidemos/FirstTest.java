@@ -16,6 +16,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElem
 
 public class FirstTest {
 
+
     @Test
     public void firstTest() throws MalformedURLException {
         UiAutomator2Options options = new UiAutomator2Options()
